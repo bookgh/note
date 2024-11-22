@@ -1,6 +1,6 @@
 options:
-  spellcheck: true
+  spellcheck: false
   askImageFilename: true
 editor:
   inputStyle: contenteditable
-  spellcheck: true
+  spellcheck: false

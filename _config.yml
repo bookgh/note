@@ -109,6 +109,7 @@ deploy:
 
 # hexo-admin authentification(hexo-admin)
 admin:
-  username: xiongjunfeng
-  password_hash: $2a$10$mAVgQJJ765Zay2EDOvZbM.vLoQC8sdI/Fo.nPfBrn73RSA/tfjklW
-  secret: 11AIGCOZQ0xtAAF5MiRREN
+  username: admin
+  password_hash: $2a$10$jqWQeL8z44WWQcxVK0UiK.My986s3s9rU20cspVIYngp71A2g1aki
+  secret: 2VOBDKR5ER
+  deployCommand: ./hexo-deploy.sh
