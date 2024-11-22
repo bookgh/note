@@ -99,9 +99,16 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: fluid
 
-# Deployment
+# Deployment(hexo-deployer-git)
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
   branch: gh-pages
   repo: https://bookgh@github.com/bookgh/note.git
+
+
+# hexo-admin authentification(hexo-admin)
+admin:
+  username: xiongjunfeng
+  password_hash: $2a$10$mAVgQJJ765Zay2EDOvZbM.vLoQC8sdI/Fo.nPfBrn73RSA/tfjklW
+  secret: 11AIGCOZQ0xtAAF5MiRREN
